@@ -3,7 +3,7 @@ image: ruby:2.3
 test:
   stage: test
   script:
-  - gem install blankslate
+  - bundler update
   - gem install jekyll
   - jekyll build -d test
   artifacts:
@@ -15,7 +15,7 @@ test:
 pages:
   stage: deploy
   script:
-  - gem install blankslate
+  - bundler update
   - gem install jekyll
   - jekyll build -d public
   artifacts:
