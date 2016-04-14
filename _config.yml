@@ -1,10 +1,10 @@
 baseurl:
-title: Trapped
-subtitle: An exploration of insanity
+title: Psychosis
+subtitle: My journey through insanity
 author: Anon E. Mouse
 simple_search: http://google.com/search
-description: A Jekyll theme for content-rich sites
-name: tufte
+description: An intimate look at my symptoms, life, and travels.
+name: psychosis
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 timezone: America/New_York
@@ -19,8 +19,3 @@ page:
 editor: gvim
 git:
   branch: master
-transfer:
-  command: rsync
-  settings: -av
-  source: _site/
-  destination: ~/Git/clayh53.github.com/
