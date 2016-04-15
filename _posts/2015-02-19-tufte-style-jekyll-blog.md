@@ -1,12 +1,13 @@
 ---
 layout: post
-title:  "Tufte-style Jekyll blog"
-date:   2015-02-19 21:46:04
+title: "Tufte-style Jekyll blog"
+date: {}
 categories: jekyll css
+published: true
 ---
 ## Introduction
 
-{% newthought 'The Tufte Jekyll theme' %} is an attempt to create a website design with the look and feel of Edward Tufte's books and handouts. Tufte’s style is known for its extensive use of sidenotes, tight integration of graphics with text, and well-set typography.<!--more--> The idea for this project is essentially cribbed wholesale from Tufte and R Markdown's Tufte Handout format{% sidenote 'One' 'See [tufte-latex.github.io/tufte-latex/](https://tufte-latex.github.io/tufte-latex/) and [rmarkdown.rstudio.com/tufte_handout_format](http://rmarkdown.rstudio.com/tufte_handout_format.html)' %} This page is an adaptation of the [Tufte Handout PDF](http://rmarkdown.rstudio.com/examples/tufte-handout.pdf).
+The Tufte Jekyll theme is an attempt to create a website design with the look and feel of Edward Tufte's books and handouts. Tufte’s style is known for its extensive use of sidenotes, tight integration of graphics with text, and well-set typography.<!--more--> The idea for this project is essentially cribbed wholesale from Tufte and R Markdown's Tufte Handout format{% sidenote 'One' 'See [tufte-latex.github.io/tufte-latex/](https://tufte-latex.github.io/tufte-latex/) and [rmarkdown.rstudio.com/tufte_handout_format](http://rmarkdown.rstudio.com/tufte_handout_format.html)' %} This page is an adaptation of the [Tufte Handout PDF](http://rmarkdown.rstudio.com/examples/tufte-handout.pdf).
 
 ## Jekyll customizations
 
@@ -62,7 +63,7 @@ Tufte CSS styles headings ```h1```, ```h2```, and ```h3```, making them nearly i
 
 While this Jekyll theme supports more specific headings, if you feel the urge to reach for a heading of level 4 or higher, consider redesigning your document.
 
-{% newthought 'In his later books' %}{% sidenote 'two' '[http://www.edwardtufte.com/tufte/books_be](http://www.edwardtufte.com/tufte/books_be)'%}, Tufte starts each section with a bit of vertical space, a non-indented paragraph, and sets the first few words of the sentence in small caps. To accomplish this using this style, enclose the sentence fragment you want styled with small caps in a custom Liquid tag called 'newthought' like so:
+In his later books{% sidenote 'two' '[http://www.edwardtufte.com/tufte/books_be](http://www.edwardtufte.com/tufte/books_be)'%}, Tufte starts each section with a bit of vertical space, a non-indented paragraph, and sets the first few words of the sentence in small caps. To accomplish this using this style, enclose the sentence fragment you want styled with small caps in a custom Liquid tag called 'newthought' like so:
 
 ```Liquid
 {{ "{% newthought 'In his later books'" }} %}
@@ -343,5 +344,3 @@ Enclose the code block in three backticks, followed by a space and then the lang
     module Jekyll
     blah, blah...
    ```</code> </pre>
-
-
