@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tufte-style Jekyll blog"
-date: {}
+date: 2015-02-19T21:46:04.000Z
 categories: jekyll css
 published: true
 ---
