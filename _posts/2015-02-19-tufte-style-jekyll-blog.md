@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tufte-style Jekyll blog"
-date: 2015-02-19T21:46:04.000Z
+date: {}
 categories: jekyll css
 published: true
 ---
@@ -66,7 +66,7 @@ While this Jekyll theme supports more specific headings, if you feel the urge to
 In his later books{% sidenote 'two' '[http://www.edwardtufte.com/tufte/books_be](http://www.edwardtufte.com/tufte/books_be)'%}, Tufte starts each section with a bit of vertical space, a non-indented paragraph, and sets the first few words of the sentence in small caps. To accomplish this using this style, enclose the sentence fragment you want styled with small caps in a custom Liquid tag called 'newthought' like so:
 
 ```Liquid
-{{ "{% newthought 'In his later books'" }} %}
+{{ "In his later books'" }}
 ```
 
 ### Text
@@ -257,8 +257,7 @@ As an example of alternative table styles, academic publications written in <spa
 </table>
 </div>
 
-
-{% newthought 'I like this style of table,' %}  so I have made it the default for unstyled tables. This allows use of the [*Markdown Extra*](https://michelf.ca/projects/php-markdown/extra/) features built into the [*Kramdown*](http://kramdown.gettalong.org/parser/kramdown.html) parser. Here is a table created using the Markdown Extra table syntax to make a nice table which has the side benefit of being human readable in the raw markdown file:
+I like this style of table,  so I have made it the default for unstyled tables. This allows use of the [*Markdown Extra*](https://michelf.ca/projects/php-markdown/extra/) features built into the [*Kramdown*](http://kramdown.gettalong.org/parser/kramdown.html) parser. Here is a table created using the Markdown Extra table syntax to make a nice table which has the side benefit of being human readable in the raw markdown file:
 
 {% marginnote 'tableID-3' 'Table 3: a table created with *Markdown Extra* markup using default table styling' %}
 
