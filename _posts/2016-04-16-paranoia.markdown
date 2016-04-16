@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Paranoia
 layout: post
 tags: [paranoia]
@@ -17,3 +17,5 @@ My mind races, flailing madly to put the pieces together.  Memories from days to
 My rational mind doesn't work for the acute instances.  To me, my rational mind is what informed me.  It's still possible to rationalise about it, just absurdly difficult.  It's literally identifying and questioning who, why, what, when and how.  If any of them are unknown/unknowable, I know that it's likely an irrational feeling.  Frequently, the who is the biggest part...if I cannot identify specific individuals or organizations (and keep the rational understanding that all government organizations are known, even if they have clandestine operations), then I know that the paranoia is unfounded.
 
 Coping with paranoia has never been removing it. Instead, it's about recognizing the root of it (mental health related origin) and guiding my behaviors and reactions to it.  It's rough at times.  If every fiber of your being is telling you that a secret organization is on their way to abduct you and force you into service for them, it's hard to drive to work and be able to think clearly enough to do your job.
+
+Even if I can rationalise around it enough to function, any acknowledgement of it, like trying to explain it as it's happening or even letting someone know I'm having an episode, it becomes nearly impossible to put aside and not act on the paranoia.  It's like acknowledging to others that it exists brings it to the surface.
